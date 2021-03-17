@@ -1,5 +1,4 @@
 - 👋 Hi, I’m Kamal Mukhalalaty 
-  - @kamalmukhalalaty
 
 - 👀 I’m interested in Data Science and Analytics
 
