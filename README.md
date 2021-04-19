@@ -2,7 +2,7 @@
 
 - 👀 I’m interested in Data Science and Analytics
 
-- 🌱 I’m currently finishing up my Master of Engineering at the University of Toronto specalizing in data science and advanced analytics
+- 🌱 I’m currently completing my Master of Engineering at the University of Toronto specalizing in data science and advanced analytics
   - Here is a list of what I have learned thus far:
     - Programming Languages:
       - Python
@@ -13,10 +13,11 @@
       - Scikit-learn
       - Pandas
       - Numpy
-      - NLP
+      - NLP (RegEx)
       - Time Series Forcasting & Analysis  
-    - Deep Learning, Nural Networks (MLP, convolutional & recurrent):
+    - Deep Learning, Nural Networks (CNN, RNN, LSTM, ResNet, GAN):
       - Keras
+      - TensorFlow
     - Big Data
       - Hadoop MapReduce
       - Hadoop via Python Streaming
@@ -27,6 +28,11 @@
         - MLlib
     - Cloud Computing
       - Azure
+        - Azure ML
+        - Azure SQL
+      - Data Engineering
+        - Batch: Azure Data Factory, Azure Synapse Analytics
+        - Stream: Azure IoT Hubs, Event Hubs, Stream Analytics
 
 - 📫 How to reach me:
   - Email: kamalmukhalalaty@gmail.com
