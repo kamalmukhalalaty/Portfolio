@@ -3,7 +3,7 @@
 - 👀 I’m interested in Data Science and Analytics
 
 - 🌱 I’m currently completing my Master of Engineering at the University of Toronto specalizing in data science and advanced analytics
-  - Here is a list of what I have learned thus far:
+  - Here is a short list of what I have learned thus far:
     - Programming Languages:
       - Python
       - C
@@ -13,7 +13,7 @@
       - Scikit-learn
       - Pandas
       - Numpy
-      - NLP (RegEx)
+      - NLP (RegEx NLTK)
       - Time Series Forcasting & Analysis  
     - Deep Learning, Nural Networks (CNN, RNN, LSTM, ResNet, GAN):
       - Keras
