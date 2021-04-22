@@ -2,7 +2,7 @@
 
 - 👀 I’m interested in Data Science and Analytics
 
-- 🌱 I’m currently completing my Master of Engineering at the University of Toronto specalizing in data science and advanced analytics
+- 🌱 I’m currently completing my Master of Engineering at the University of Toronto specalizing in data science
   - Here is a short list of what I have learned thus far:
     - Programming Languages:
       - Python
