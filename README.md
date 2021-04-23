@@ -42,7 +42,7 @@
 
 # Projects:
 
-## Project 1: Salary Prediction Challenge Kaggle
+## [Project 1: Salary Prediction Challenge Kaggle](https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions)
 
 The challenge objective: tell a data story about a subset of the data science community represented in the given survey, through a combination of both narrative text and data exploration. A “story” could be defined any number of ways, and that’s deliberate. The challenge is to deeply explore (through data) the impact, priorities, or concerns of a specific group of data science and machine learning practitioners. 
 
