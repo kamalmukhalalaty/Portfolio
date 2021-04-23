@@ -1,3 +1,5 @@
+# About Me
+
 - 👋 Hi, I’m Kamal Mukhalalaty 
 
 - 👀 I’m interested in Data Science and Analytics
@@ -37,6 +39,25 @@
 - 📫 How to reach me:
   - Email: kamalmukhalalaty@gmail.com
   - Linkedin: https://www.linkedin.com/in/kamalmukhalalaty/
+
+# Projects:
+
+## Project 1: Salary Prediction Challenge Kaggle
+
+The challenge objective: tell a data story about a subset of the data science community represented in the given survey, through a combination of both narrative text and data exploration. A “story” could be defined any number of ways, and that’s deliberate. The challenge is to deeply explore (through data) the impact, priorities, or concerns of a specific group of data science and machine learning practitioners. 
+
+I decided to do both the data exploration and build a predictive model using logistic regression to predict the salaries of the survey participants.
+
+This project involved:
+- Data cleaning, wrangling and manipulation
+- Imputation of missing values 
+- Statistical Analysis 
+- Data exploration
+- Visualization
+- Hyperparameter Tuning
+- Bias-Variance Tradeoff Analyisis
+
+For more details on the challenge itself and the to source the input data please visit: https://www.kaggle.com/c/kaggle-survey-2019
 
 <!---
 kamalmukhalalaty/kamalmukhalalaty is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
