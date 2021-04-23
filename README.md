@@ -83,12 +83,13 @@ Web Scraped LinkedIn Data Science job descriptions pre-processed and parsed the 
 Built a Hadoop MapReduce k-means clustering program from scratch using Hadoop’s Streaming API.  Orchestrated training iterations via a Bash script to pass data between my Python written mapper and reducer via STDIN and STDOUT.
 
 ## [Project 5&6: Machine Learning on Big Data via Spark, PySpark, MLlib]()
-•	Created a big data movie recommender system using Alternating Least Square (ALS) on Databricks in PySpark leveraging MLlib.]
 
-•	Created a big data raud detection system system on Databricks in PySpark leveraging MLlib.
+- Created a big data movie recommender system using Alternating Least Square (ALS) on Databricks in PySpark leveraging MLlib.]
+
+- Created a big data raud detection system system on Databricks in PySpark leveraging MLlib.
 
 
-## [Project 6: Neural Network design from the control flow graph to backpropagation to coding the algorithms from scratch for MLP, RNN, GANs and ResNet in Python using only Numpy.]
+## [Project 6: Neural Network design from the control flow graph to backpropagation to coding the algorithms from scratch for MLP, RNN, GANs and ResNet in Python using only Numpy.]()
 
 
 
