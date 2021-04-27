@@ -15,12 +15,12 @@
       - Scikit-learn
       - Pandas
       - Numpy
-      - NLP (RegEx NLTK)
+      - NLP (RegEx & NLTK)
       - Time Series Forcasting & Analysis  
     - Deep Learning, Nural Networks (CNN, RNN, LSTM, ResNet, GAN):
       - Keras
       - TensorFlow
-    - Big Data:
+    - Big Data & Data Engineering:
       - Hadoop MapReduce
       - Hadoop via Python Streaming
       - Apache Spark
