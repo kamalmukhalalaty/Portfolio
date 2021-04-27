@@ -91,7 +91,7 @@ This was my first portfolio worthy project within the realm of NLP, model perfor
 - Using techniques such as word2vec or Glovo word embeddings to allow the model to better put sequence of words into context and improve prediction.
   - This will be the goal in my next NLP Project.
 
-<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/Sentiment%20Analysis%20Word%20Cloud.png" name="Sentiment Analysis Data Word Cloud" width="400" height="250">
+<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/Sentiment%20Analysis%20Word%20Cloud.png" "Sentiment Analysis Data Word Cloud" width="400" height="250">
 
 
 ## [Project 3: Time-Series Forcasting of Covid-19 Data via manually tuned ARIMA]()
