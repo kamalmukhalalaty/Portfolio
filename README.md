@@ -40,7 +40,7 @@
   - Email: [kamalmukhalalaty@gmail.com]()
   - Linkedin: [https://www.linkedin.com/in/kamalmukhalalaty/]()
 
-# [Projects:](https://github.com/kamalmukhalalaty)
+# [Data Science Projects:](https://github.com/kamalmukhalalaty)
 
 ## [Salary Prediction Challenge Kaggle](https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions)
 
@@ -62,30 +62,39 @@ For more details on the challenge itself and the to source the input data please
 
 For this project I thoroughly explore two labeled datasets, one contains sentiment labeled generic tweets while the other contains 2020 US Election relevant I built a NLP tweet sentiment analysis classifier.
 
-The binary classifier is trained and validated on generic tweets from the file named sentiment_analysis.csv.
+In this repository I showcase a notebook where I built a NLP tweet sentiment analysis classifier. 
 
-The extracted corpus is modeled via both Bag of words (BOW) and Term Frequency-Inverse Document Frequency (TF-IDF) embeddings.
-top 200 features were selected based on frequency and the following models were applied using scikit's default settings:
-LogisticRegression()
-RandomForestClassifier()
-DecisionTree
-SVM
-KNN
-XGBoost W/Logistic objective -TF-IDF Embedding W/ Logistic Regression & Random Forest showed some promise so I conducted hyperparameter tuning which yeilded that Logistic Regresion in default setting has the highest validation accuracy of aproximatley 86%.
-The previously defined best classifer is then applied on the entirety of the of US_Election_2020.csv dataset containing labeled 2020 US election relevant tweets and its performance is not as good at 58%. This is primarily due to computational contraints and dimensionality reduction requierments, the top 200 features from the generic tweets were used to train the model, these features are not as informative when in comes to dictating sentiment in the US election tweets as they are insufficiently diverse and unable to effectivly explain the relativly specific feature to sentiment mappings in the election relevant tweets.
+- The binary classifier is trained and validated on generic tweets from the file named sentiment_analysis.csv. 
+  - The extracted corpus is modeled via both Bag of words (BOW) and Term Frequency-Inverse Document Frequency (TF-IDF) embeddings.
+  - top 200 features were selected based on frequency and the following models were applied using scikit's default settings:
+    - LogisticRegression()
+    - RandomForestClassifier()
+    - DecisionTree
+    - SVM
+    - KNN
+    - XGBoost W/Logistic objective
+  -**TF-IDF Embedding W/ Logistic Regression & Random Forest showed some promise so I conducted hyperparameter tuning which yeilded that Logistic Regresion in default setting has the highest validation accuracy of aproximatley 86%.**
+  
+- The previously defined **best classifer** is then applied on the entirety of the of US_Election_2020.csv dataset containing labeled 2020 US election relevant tweets and its **performance is sub optimal at 58%**. This is primarily due to computational contraints and dimensionality reduction requierments, the top 200 features from the generic tweets were used to train the model and only a randomly sampled eigth of the total dataset index was used, these features are not as informative when it comes to dictating sentiment in the US election tweets as they are insufficiently diverse and unable to effectivly explain the feature to sentiment mappings in the election relevant tweets.
 
-A Multi-Class Classification model is created using the same steps as above to try and learn feature to negative sentiment reason mappings.
+- A Multi-Class Classification model is then created using the same steps as above to try and learn feature to negative sentiment reason mappings on the 2020 US election relevant tweets and its. The highest accuracy random forrest classification mod--el had an accuracy at 36% but overfit the data extremely. The logistic regression model had a similar accuracy with less overfitting characteristics but still at unreasonable levels.
+  - The model did poorly in my opinion for the following reasons:
+    - Unequal distribution of the labeled reasons with Covid significantly outnumbering the others
+      - Scoring metric could have been changed to have a weighted accuracy however the class imbalance is too low to justify this. 
+    - the sample size of the negative sentement labeled tweets with reasons is small and therefore models have a hard time generalizing on new data from the little they have learned from the small training set.
 
-Finnaly an MLP-3 is Built using Keras and TF in an attempt to build an even more compatant classifier however the va;idation accuracy is only 1% higher so the idea is scrapped.
+- Finnaly an MLP-3 is Built using Keras and TF in an attempt to build an even more compatant classifier however the validation accuracy is only 1% higher so the idea is scrapped. 
 
 This was my first portfolio worthy project within the realm of NLP, model performance could be improved in the following ways:
 
-getting access to massively parallel processing (MPP) to speed things up and allow me to use the whole generic tweet set and more features as opposed to randomly sampling 1/8th of the overall index and only taking the top 200 most frequent features. (Can try DataBricks Pyspark)
-Using techniques such as word2vec or Glovo word embeddings to allow the model to better put sequence of words into context and improve prediction.
-This will be the goal in my next NLP Project.
+- getting access to massively parallel processing (MPP) to speed things up and allow me to use the whole generic tweet set and more features as opposed to randomly sampling 1/8th of the overall index and only taking the top 200 most frequent features. (Can try DataBricks Pyspark)
+- Using techniques such as word2vec or Glovo word embeddings to allow the model to better put sequence of words into context and improve prediction.
+  - This will be the goal in my next NLP Project.
 
 
+![image](https://github.com/kamalmukhalalaty/NLP_twitter_Sentiment_Analysis/blob/main/Sentiment%20Analysis%20Word%20Cloud.png)
 
+![image](https://github.com/kamalmukhalalaty/NLP_twitter_Sentiment_Analysis/blob/main/US%20Election%202020%20Word%20Cloud.png)
 
 ## [Project 3: Time-Series Forcasting of Covid-19 Data via manually tuned ARIMA]()
 
@@ -108,7 +117,18 @@ Built a Hadoop MapReduce k-means clustering program from scratch using Hadoop’
 
 ## [Project 6: Neural Network design from the control flow graph to backpropagation to coding the algorithms from scratch for MLP, RNN, GANs and ResNet in Python using only Numpy.]()
 
+# Mechatronics Projects:
 
+## Robotics, Control Theory & More:
+
+In my past life, I worked on some interesting projects in the realm of Mechatronics.
+
+### [Autonomous Robot Project](https://portfolium.com/entry/autonomous-robot-project)
+
+### [Experimental Helicopter PID Control System Design](https://portfolium.com/entry/httpsyoutube3tm-tcbhyu8)
+- Created a dynamic rig to test the one-dimensional motion of a replicated helicopter rotor system.
+- Wrote the PID controller code and iteratively tuned control gains using the Ziegler-Nichols method to meet system response requirements, achieving <2% overshoot.
+### [Print farm friendly 3D printer Design](https://portfolium.com/entry/print-farm-friendly-3d-printer)
 
 
 
