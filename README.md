@@ -58,7 +58,7 @@ This project involved:
 
 For more details on the challenge itself and the to source the input data please visit: https://www.kaggle.com/c/kaggle-survey-2019
 
-## [Sentiment Analysis on Generic Tweets & US Election Specific Posts (NLP)]()
+## [Sentiment Analysis on Generic Tweets & US Election Specific Posts (NLP)](https://github.com/kamalmukhalalaty/NLP_twitter_Sentiment_Analysis)
 
 For this project I thoroughly explore two labeled datasets, one contains sentiment labeled generic tweets while the other contains 2020 US Election relevant I built a NLP tweet sentiment analysis classifier.
 
@@ -73,7 +73,7 @@ In this repository I showcase a notebook where I built a NLP tweet sentiment ana
     - SVM
     - KNN
     - XGBoost W/Logistic objective
-  -**TF-IDF Embedding W/ Logistic Regression & Random Forest showed some promise so I conducted hyperparameter tuning which yeilded that Logistic Regresion in default setting has the highest validation accuracy of aproximatley 86%.**
+  - **TF-IDF Embedding W/ Logistic Regression & Random Forest showed some promise so I conducted hyperparameter tuning which yeilded that Logistic Regresion in default setting has the highest validation accuracy of aproximatley 86%.**
   
 - The previously defined **best classifer** is then applied on the entirety of the of US_Election_2020.csv dataset containing labeled 2020 US election relevant tweets and its **performance is sub optimal at 58%**. This is primarily due to computational contraints and dimensionality reduction requierments, the top 200 features from the generic tweets were used to train the model and only a randomly sampled eigth of the total dataset index was used, these features are not as informative when it comes to dictating sentiment in the US election tweets as they are insufficiently diverse and unable to effectivly explain the feature to sentiment mappings in the election relevant tweets.
 
@@ -92,9 +92,9 @@ This was my first portfolio worthy project within the realm of NLP, model perfor
   - This will be the goal in my next NLP Project.
 
 
-![image](https://github.com/kamalmukhalalaty/NLP_twitter_Sentiment_Analysis/blob/main/Sentiment%20Analysis%20Word%20Cloud.png)
+[image](https://github.com/kamalmukhalalaty/NLP_twitter_Sentiment_Analysis/blob/main/Sentiment%20Analysis%20Word%20Cloud.png)
 
-![image](https://github.com/kamalmukhalalaty/NLP_twitter_Sentiment_Analysis/blob/main/US%20Election%202020%20Word%20Cloud.png)
+[image](https://github.com/kamalmukhalalaty/NLP_twitter_Sentiment_Analysis/blob/main/US%20Election%202020%20Word%20Cloud.png)
 
 ## [Project 3: Time-Series Forcasting of Covid-19 Data via manually tuned ARIMA]()
 
