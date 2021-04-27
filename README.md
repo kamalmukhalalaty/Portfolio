@@ -20,7 +20,7 @@
     - Deep Learning, Nural Networks (CNN, RNN, LSTM, ResNet, GAN):
       - Keras
       - TensorFlow
-    - Big Data
+    - Big Data:
       - Hadoop MapReduce
       - Hadoop via Python Streaming
       - Apache Spark
@@ -28,7 +28,7 @@
         - Pyspark
         - RDD & Dataframe manipulation
         - MLlib
-    - Cloud Computing
+    - Cloud Computing:
       - Azure
         - Azure ML
         - Azure SQL
@@ -40,7 +40,7 @@
   - Email: [kamalmukhalalaty@gmail.com]()
   - Linkedin: [https://www.linkedin.com/in/kamalmukhalalaty/]()
 
-# Projects:
+# [Projects:](https://github.com/kamalmukhalalaty)
 
 ## [Salary Prediction Challenge Kaggle](https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions)
 
@@ -59,7 +59,6 @@ This project involved:
 For more details on the challenge itself and the to source the input data please visit: https://www.kaggle.com/c/kaggle-survey-2019
 
 ## [Sentiment Analysis on Generic Tweets & US Election Specific Posts (NLP)]()
-
 
 For this project I thoroughly explore two labeled datasets, one contains sentiment labeled generic tweets while the other contains 2020 US Election relevant I built a NLP tweet sentiment analysis classifier.
 
