@@ -91,8 +91,10 @@ This was my first portfolio worthy project within the realm of NLP, model perfor
 - Using techniques such as word2vec or Glovo word embeddings to allow the model to better put sequence of words into context and improve prediction.
   - This will be the goal in my next NLP Project.
 
---|--|
-![Sentiment Analysis Data Word Cloud](https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/Sentiment%20Analysis%20Word%20Cloud.png) | ![US Election Data Word Cloud](https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/US%20Election%202020%20Word%20Cloud.png) |
+
+![Sentiment Analysis Data Word Cloud](https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/Sentiment%20Analysis%20Word%20Cloud.png| width=100)
+
+![US Election Data Word Cloud](https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/US%20Election%202020%20Word%20Cloud.png| width=50)
 
 
 
