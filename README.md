@@ -92,9 +92,9 @@ This was my first portfolio worthy project within the realm of NLP, model perfor
   - This will be the goal in my next NLP Project.
 
 
-![Sentiment Analysis Data Word Cloud](https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/Sentiment%20Analysis%20Word%20Cloud.png| width=100)
+![Sentiment Analysis Data Word Cloud](https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/Sentiment%20Analysis%20Word%20Cloud.png | width=100)
 
-![US Election Data Word Cloud](https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/US%20Election%202020%20Word%20Cloud.png| width=50)
+![US Election Data Word Cloud](https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/US%20Election%202020%20Word%20Cloud.png | width=50)
 
 
 
