@@ -45,17 +45,22 @@
 
 # [Data Science Projects:](https://github.com/kamalmukhalalaty)
 
-## [Salary Prediction Challenge Kaggle](https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions)
+## [Salary Exploration & Prediction Challenge Kaggle](https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions)
 
-The challenge objective: tell a data story about a subset of the data science community represented in the given survey, through a combination of both narrative text and data exploration. A “story” could be defined any number of ways, and that’s deliberate. The challenge is to deeply explore (through data) the impact, priorities, or concerns of a specific group of data science and machine learning practitioners. 
+The challenge objective: tell a data story about a subset of the data science community represented in this survey, through a combination of both narrative text and data exploration. A “story” could be defined any number of ways, and that’s deliberate. The challenge is to deeply explore (through data) the impact, priorities, or concerns of a specific group of data science and machine learning practitioners. 
 
-I decided to do both the data exploration and build a predictive model using logistic regression to predict the salaries of the survey participants.
+I decided to bo both the data exploration and build a predictive model using logistic regression to predict the salaries of survey participants.
 
 This project involved:
 - Data cleaning, wrangling and manipulation
+  - Ordinal & Coordinal encoding 
 - Imputation of missing values 
 - Statistical Analysis 
-- Data Exploration & Visualization
+- Data exploration
+- Visualization
+- Feature Reduction 
+  - Tree Based Feature Importance 
+  - Lasso for feature selection
 - Hyperparameter Tuning
 - Bias-Variance Tradeoff Analyisis
 
