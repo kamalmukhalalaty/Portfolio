@@ -1,8 +1,8 @@
 # [About Me](https://www.linkedin.com/in/kamalmukhalalaty/)
 
-- 👋 Hi, I’m Kamal Mukhalalaty 
+- 👋 Hi, I’m Kamal
 
-- 👀 I’m interested in Data Science and Analytics
+- 👀 I’m interested in Data Science, Engineering & Analytics
 
 - 🌱 I’m currently completing my Master of Engineering at the University of Toronto specalizing in data science
   - Here is a short list of what I have learned thus far:
@@ -28,7 +28,7 @@
         - Pyspark
         - RDD & Dataframe manipulation
         - MLlib
-    - Cloud Computing:
+    -  Cloud Computing:
       - Azure
         - Azure ML
         - Azure SQL
@@ -36,9 +36,12 @@
         - Batch: Azure Data Factory, Azure Synapse Analytics
         - Stream: Azure IoT Hubs, Event Hubs, Stream Analytics
 
+- 🦾 Mechanical Engineering Background (BASc. Completed @ UofT 2019)
+  - Specialized in Mechatronics & Renewable Energy
+
 - 📫 How to reach me:
-  - Email: [kamalmukhalalaty@gmail.com]()
-  - Linkedin: [https://www.linkedin.com/in/kamalmukhalalaty/]()
+  - Email: [kamalmukhalalaty@gmail.com](kamalmukhalalaty@gmail.com)
+  - Linkedin: [https://www.linkedin.com/in/kamalmukhalalaty/](https://www.linkedin.com/in/kamalmukhalalaty/)
 
 # [Data Science Projects:](https://github.com/kamalmukhalalaty)
 
@@ -56,7 +59,7 @@ This project involved:
 - Hyperparameter Tuning
 - Bias-Variance Tradeoff Analyisis
 
-For more details on the challenge itself and the to source the input data please visit: https://www.kaggle.com/c/kaggle-survey-2019
+For more details on the challenge itself and the to source the input data please visit: [https://www.kaggle.com/c/kaggle-survey-2019](https://www.kaggle.com/c/kaggle-survey-2019)
 
 ## [Sentiment Analysis on Generic Tweets & US Election Specific Posts (NLP)](https://github.com/kamalmukhalalaty/NLP_twitter_Sentiment_Analysis)
 
