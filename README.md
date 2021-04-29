@@ -120,6 +120,9 @@ A reminder of the 2-week forcast's outcome:
 
 <img src="https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting/blob/main/Images/Best%202-Week%20Prediction%20(Manually%20Tuned%20SARIMA).png" width="500" height="300">
 
+<img width="714" alt="dendrogram_1" src="https://user-images.githubusercontent.com/72153772/116601299-58329d80-a8f8-11eb-98fd-2cf787c67809.png">
+
+
 ## [Salary Exploration & Prediction Challenge Kaggle](https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions)
 
 ### The challenge objective: tell a data story about a subset of the data science community represented in this survey, through a combination of both narrative text and data exploration. A “story” could be defined any number of ways, and that’s deliberate. The challenge is to deeply explore (through data) the impact, priorities, or concerns of a specific group of data science and machine learning practitioners. 
@@ -148,8 +151,8 @@ For more details on the challenge itself and the to source the input data please
 The distribution of salaries is very skewed with a very high number of data points for the lowest salary bracket as well as a "bump" in observations at the 100-125k salary bracket. This is due to a high number of respondents from various developping countries with a lower average/median salary (eg. India, which has a large number of survey participants as well while the bump at the 100-125k salary bracket can be seen as a somehwat normal distribution of salaries for the North America/USA alone.
 
 To investgiate this further I have created the following plots:
-<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/US%20vs%20India%20Salary%20Distributions.png" width="1500" height="300">
-<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/US%20vs%20India%20Salaries%20W:R:T%20Education.png" width="1500" height="300">
+<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/US%20vs%20India%20Salary%20Distributions.png" width="1000" height="300">
+<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/US%20vs%20India%20Salaries%20W:R:T%20Education.png" width="1000" height="300">
 
 Looking at this we can validate that there is somewhat normal distribution of salaries around 125-150k for the US alone with what could be some outliers in the 0-9,999 salrary bracket; and a skewed distrubtion at 0-10000 for indian respondants alone with some outliers at the >250,000$ salary bracket.
 
@@ -161,9 +164,7 @@ For this project I thoroughly explore two labeled datasets, one contains sentime
 
 Generic Tweets Word Cloud: 
 
-![](https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/Sentiment%20Analysis%20Word%20Cloud.png)
-
-
+<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/Sentiment%20Analysis%20Word%20Cloud.png" width="500" height="300">
 
 US Election Relevant tweets Word Cloud:
 
