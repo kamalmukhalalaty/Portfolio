@@ -64,7 +64,7 @@ Oxfords covid-19 data hub tracks policy measures across 19 indicators. I used th
 - General info: [https://github.com/OxCGRT/covid-policy-tracker#subnational-data](https://github.com/OxCGRT/covid-policy-tracker#subnational-data)
 - Indicies: [https://github.com/OxCGRT/covid-policy-tracker/blob/master/documentation/index_methodology.md](https://github.com/OxCGRT/covid-policy-tracker/blob/master/documentation/index_methodology.md)
 For example:
-<img src="https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting/blob/main/Images/An%20Example%20of%20the%20Oxford%20Database%20Indicators.png" width="500" height="300">
+[]("https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting/blob/main/Images/An%20Example%20of%20the%20Oxford%20Database%20Indicators.png")
 
 The Project Workflow was as follows:
 
