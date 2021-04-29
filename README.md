@@ -63,8 +63,10 @@ The End Goal is to develop a model for a 1 month out of sample prediction (1 mon
 Oxfords covid-19 data hub tracks policy measures across 19 indicators. I used the database to pull a variety of Policy related features and examine some of the response indicies created by Oxford (indices are simple averages of the individual component indicators).
 - General info: [https://github.com/OxCGRT/covid-policy-tracker#subnational-data](https://github.com/OxCGRT/covid-policy-tracker#subnational-data)
 - Indicies: [https://github.com/OxCGRT/covid-policy-tracker/blob/master/documentation/index_methodology.md](https://github.com/OxCGRT/covid-policy-tracker/blob/master/documentation/index_methodology.md)
+
 For example:
-[]("https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting/blob/main/Images/An%20Example%20of%20the%20Oxford%20Database%20Indicators.png")
+
+![]("https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting/blob/main/Images/An%20Example%20of%20the%20Oxford%20Database%20Indicators.png")
 
 The Project Workflow was as follows:
 
