@@ -159,11 +159,11 @@ For this project I thoroughly explore two labeled datasets, one contains sentime
 
 Generic Tweets Word Cloud: 
 
-<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/Sentiment%20Analysis%20Word%20Cloud.png" width="400" height="250">
+<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/Sentiment%20Analysis%20Word%20Cloud.png" width="500" height="300">
 
 US Election Relevant tweets Word Cloud:
 
-<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/US%20Election%202020%20Word%20Cloud.png" width="400" height="250">
+<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/US%20Election%202020%20Word%20Cloud.png" width="500" height="300">
 
 This project involved:
 - A binary classifier is trained and validated on generic tweets from the file named sentiment_analysis.csv. 
@@ -203,13 +203,13 @@ My personal contribution to the overall project:
   - Data Camp scraped & Coursera scraped data (Scraping done by my colleagues)
     - Extracting popular topics
     
-    <img src="https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/Images/datacamp_skills.png">
-    <img src="https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/Images/coursera_skills.png">
+    <img src="https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/Images/datacamp_skills.png" width="500" height="300">
+    <img src="https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/Images/coursera_skills.png" width="500" height="300">
     
   - Scraped job descriptions
     - Extracting important skills mentioned in job postings
     
-    <img src="https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/Images/skills_from_jobs.png">
+    <img src="https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/Images/skills_from_jobs.png" width="500" height="300">
     
   - Looking at importance via most Frequent Words (Key words) and Bigrams
 
@@ -219,13 +219,13 @@ The following dendrogram was created to to clusters skills based on inter-job de
 
 Based on this, the clusters shown on the dendrogram were derived. 
 
-<img src="https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/Images/dendrogram_1.png">
+<img src="https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/Images/dendrogram_1.png" width="500" height="300">
 
 Due to the large amount of terms analysed the dendrogram could be better interpreted by
 Zeroing in on the most popular languages and software platforms, 
 
 
-<img src="https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/Images/dendrogram_2.png">
+<img src="https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/Images/dendrogram_2.png" width="500" height="300">
 
 Here we see 6 clear clusters and it is nice to see that the clusters make sense. We also see languages like r and c tying into larger clusters that contain more specific skills. 
 
@@ -252,7 +252,7 @@ During my mechanical Engineering undergrad at UofT, I worked on some interesting
 
 ### [Autonomous Robot Project](https://portfolium.com/entry/autonomous-robot-project)
 
-<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/MAGGA%20(ROBOT).png" width="500" height="500">
+<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/MAGGA%20(ROBOT).png" width="300" height="300">
 
 - Led the mechanical design of the robot’s chassis, robotic arm and gripper using SolidWorks.
 - Integrated Bluetooth hardware to enable wireless flashing/uploading of code to the microprocessors.
@@ -261,18 +261,16 @@ sensor data using C++ (Arduino IDE) to achieve localization in under 30 seconds.
 
 ### [Experimental Helicopter PID Control System Design](https://portfolium.com/entry/httpsyoutube3tm-tcbhyu8)
 
-<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/PID%20Control%202.png" width="300" height="500">
+<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/PID%20Control%202.png" width="200" height="300">
 
 - Created a dynamic rig to test the one-dimensional motion of a replicated helicopter rotor system.
 - Wrote the PID controller code and iteratively tuned control gains using the Ziegler-Nichols method to meet system response requirements, achieving <2% overshoot.
 
 ### [Print farm friendly 3D printer Design](https://portfolium.com/entry/print-farm-friendly-3d-printer)
 
-<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/3D%20Printer%20Isometric%20View.png" width="500" height="500">
+<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/3D%20Printer%20Isometric%20View.png" width="300" height="300">
 
 - Led the mechanical design of the printer using SolidWorks.
-
-
 
 <!---
 kamalmukhalalaty/kamalmukhalalaty is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
