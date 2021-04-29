@@ -66,7 +66,7 @@ Oxfords covid-19 data hub tracks policy measures across 19 indicators. I used th
 
 For example:
 
-<img src="https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting/blob/main/Images/An%20Example%20of%20the%20Oxford%20Database%20Indicators.png" width="500" height="300">
+<img width="899" alt="An Example of the Oxford Database Indicators" src="https://user-images.githubusercontent.com/72153772/116601504-94fe9480-a8f8-11eb-8563-524bcb1a1e63.png">
 
 The Project Workflow was as follows:
 
@@ -83,7 +83,7 @@ Results were not good enough.
   - rmse 1064.107
   - mape 0.109
   
-  <img src="https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting/blob/main/Images/Best%202-Week%20Prediction%20(Manually%20Tuned%20SARIMA).png" width="500" height="300">
+  <img width="923" alt="Best 2-Week Prediction (Manually Tuned SARIMA)" src="https://user-images.githubusercontent.com/72153772/116601547-a21b8380-a8f8-11eb-94db-1f3eaa2d5a6a.png">
   
 3. SARIMAX
 - Auto
@@ -98,8 +98,8 @@ Results were not good enough.
   - rmse 1450.458
   - mape 0.112
   
-  <img src="https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting/blob/main/Images/SARIMAX%20UnSig.png" width="500" height="300">
-  
+  <img width="907" alt="SARIMAX UnSig" src="https://user-images.githubusercontent.com/72153772/116601615-b0699f80-a8f8-11eb-9a27-194b00b8e1a0.png">  
+
 - Training yeilds that the only Statistically significant indicies W/ large coefficients (Influence of SARIMAX model) are
   - C4_Restrictions on gatherings
   - H2_Testing policy
@@ -108,19 +108,21 @@ Results were not good enough.
   - rmse 1463.860
   - mape 0.113
 
-  <img src="https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting/blob/main/Images/SARIMAX%20Top%205.png" width="500" height="300">
+  <img width="910" alt="SARIMAX Top 5" src="https://user-images.githubusercontent.com/72153772/116601739-d000c800-a8f8-11eb-8798-25651c53afed.png">
 
  - Despite all this work on trying to build a SARIMAX model and finding the perfect exogenous data set to support it's predictions, the mannually tuned SARIMA Model previously built (2) outperforms all SARIMAX models. for that reason I will use that model to do my one month out prediction.
 
 4. Apply wining SARIMA model for 1-month prediction.
-<img src="https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting/blob/main/Images/1%20Month%20out%20prediction%20using%20Best%20Model.png" width="500" height="300">
+
+<img width="909" alt="1 Month out prediction using Best Model" src="https://user-images.githubusercontent.com/72153772/116601894-ff173980-a8f8-11eb-9191-1a9e16d2dba7.png">
+
+
 Forcasting for one month out is as expected a very difficult task as 1 month is a long time however it is reassuring that the forcast's lower bound is very close to actual cases.
 
 A reminder of the 2-week forcast's outcome:
 
-<img src="https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting/blob/main/Images/Best%202-Week%20Prediction%20(Manually%20Tuned%20SARIMA).png" width="500" height="300">
+<img width="923" alt="Best 2-Week Prediction (Manually Tuned SARIMA)" src="https://user-images.githubusercontent.com/72153772/116601547-a21b8380-a8f8-11eb-94db-1f3eaa2d5a6a.png">
 
-<img width="714" alt="dendrogram_1" src="https://user-images.githubusercontent.com/72153772/116601299-58329d80-a8f8-11eb-98fd-2cf787c67809.png">
 
 
 ## [Salary Exploration & Prediction Challenge Kaggle](https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions)
@@ -146,13 +148,13 @@ For more details on the challenge itself and the to source the input data please
 
 ### Key Findings & Results
 
-<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/Overall%20Distribution%20of%20Salaries.png" width="500" height="300">
+<img width="716" alt="Overall Distribution of Salaries" src="https://user-images.githubusercontent.com/72153772/116602016-22da7f80-a8f9-11eb-83e5-412d8f97311e.png">
 
 The distribution of salaries is very skewed with a very high number of data points for the lowest salary bracket as well as a "bump" in observations at the 100-125k salary bracket. This is due to a high number of respondents from various developping countries with a lower average/median salary (eg. India, which has a large number of survey participants as well while the bump at the 100-125k salary bracket can be seen as a somehwat normal distribution of salaries for the North America/USA alone.
 
 To investgiate this further I have created the following plots:
-<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/US%20vs%20India%20Salary%20Distributions.png" width="1000" height="300">
-<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/US%20vs%20India%20Salaries%20W:R:T%20Education.png" width="1000" height="300">
+<img width="950" alt="US vs India Salary Distributions" src="https://user-images.githubusercontent.com/72153772/116602062-35ed4f80-a8f9-11eb-97d4-c023133e71ad.png">
+<img width="1150" alt="US vs India Salaries W:R:T Education" src="https://user-images.githubusercontent.com/72153772/116602083-3e458a80-a8f9-11eb-9920-94f3f0c1a59a.png">
 
 Looking at this we can validate that there is somewhat normal distribution of salaries around 125-150k for the US alone with what could be some outliers in the 0-9,999 salrary bracket; and a skewed distrubtion at 0-10000 for indian respondants alone with some outliers at the >250,000$ salary bracket.
 
@@ -164,11 +166,11 @@ For this project I thoroughly explore two labeled datasets, one contains sentime
 
 Generic Tweets Word Cloud: 
 
-<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/Sentiment%20Analysis%20Word%20Cloud.png" width="500" height="300">
+<img width="450" alt="Sentiment Analysis Word Cloud" src="https://user-images.githubusercontent.com/72153772/116602117-4bfb1000-a8f9-11eb-9983-d063497e79ca.png">
 
 US Election Relevant tweets Word Cloud:
 
-<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/US%20Election%202020%20Word%20Cloud.png" width="500" height="300">
+<img width="452" alt="US Election 2020 Word Cloud" src="https://user-images.githubusercontent.com/72153772/116602143-53221e00-a8f9-11eb-8107-58f08f961505.png">
 
 This project involved:
 - A binary classifier is trained and validated on generic tweets from the file named sentiment_analysis.csv. 
@@ -208,13 +210,13 @@ My personal contribution to the overall project:
   - Data Camp scraped & Coursera scraped data (Scraping done by my colleagues)
     - Extracting popular topics
     
-    <img src="https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/Images/datacamp_skills.png" width="500" height="300">
-    <img src="https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/Images/coursera_skills.png" width="500" height="300">
+    <img width="743" alt="datacamp_skills" src="https://user-images.githubusercontent.com/72153772/116602815-35a18400-a8fa-11eb-8325-4a50ceb2469c.png">
+    <img width="792" alt="coursera_skills" src="https://user-images.githubusercontent.com/72153772/116602845-3df9bf00-a8fa-11eb-9617-ab2abb0bc02b.png">
     
   - Scraped job descriptions
     - Extracting important skills mentioned in job postings
     
-    <img src="https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/Images/skills_from_jobs.png" width="500" height="300">
+    <img width="824" alt="skills_from_jobs" src="https://user-images.githubusercontent.com/72153772/116602929-536ee900-a8fa-11eb-8375-e6d835c675c1.png">
     
   - Looking at importance via most Frequent Words (Key words) and Bigrams
 
@@ -224,13 +226,12 @@ The following dendrogram was created to to clusters skills based on inter-job de
 
 Based on this, the clusters shown on the dendrogram were derived. 
 
-<img src="https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/Images/dendrogram_1.png" width="500" height="300">
+<img width="714" alt="dendrogram_1" src="https://user-images.githubusercontent.com/72153772/116602944-5a95f700-a8fa-11eb-9ce4-653d88383585.png">
 
 Due to the large amount of terms analysed the dendrogram could be better interpreted by
 Zeroing in on the most popular languages and software platforms, 
 
-
-<img src="https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/Images/dendrogram_2.png" width="500" height="300">
+<img width="641" alt="dendrogram_2" src="https://user-images.githubusercontent.com/72153772/116602963-5ff34180-a8fa-11eb-9db0-3fe6acaff1b9.png">
 
 Here we see 6 clear clusters and it is nice to see that the clusters make sense. We also see languages like r and c tying into larger clusters that contain more specific skills. 
 
@@ -257,7 +258,7 @@ During my mechanical Engineering undergrad at UofT, I worked on some interesting
 
 ### [Autonomous Robot Project](https://portfolium.com/entry/autonomous-robot-project)
 
-<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/MAGGA%20(ROBOT).png" width="300" height="300">
+<img width="377" alt="MAGGA (ROBOT)" src="https://user-images.githubusercontent.com/72153772/116603011-6b466d00-a8fa-11eb-8e2a-e19482013e07.png">
 
 - Led the mechanical design of the robot’s chassis, robotic arm and gripper using SolidWorks.
 - Integrated Bluetooth hardware to enable wireless flashing/uploading of code to the microprocessors.
@@ -265,15 +266,14 @@ During my mechanical Engineering undergrad at UofT, I worked on some interesting
 sensor data using C++ (Arduino IDE) to achieve localization in under 30 seconds.
 
 ### [Experimental Helicopter PID Control System Design](https://portfolium.com/entry/httpsyoutube3tm-tcbhyu8)
-
-<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/PID%20Control%202.png" width="200" height="300">
+<img width="229" alt="PID Control 2" src="https://user-images.githubusercontent.com/72153772/116603073-7f8a6a00-a8fa-11eb-8dc2-426bff493cfa.png">
 
 - Created a dynamic rig to test the one-dimensional motion of a replicated helicopter rotor system.
 - Wrote the PID controller code and iteratively tuned control gains using the Ziegler-Nichols method to meet system response requirements, achieving <2% overshoot.
 
 ### [Print farm friendly 3D printer Design](https://portfolium.com/entry/print-farm-friendly-3d-printer)
 
-<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/3D%20Printer%20Isometric%20View.png" width="300" height="300">
+![](https://user-images.githubusercontent.com/72153772/116603137-9630c100-a8fa-11eb-84fc-296c05720fde.png)
 
 - Led the mechanical design of the printer using SolidWorks.
 
