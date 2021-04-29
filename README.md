@@ -66,7 +66,7 @@ Oxfords covid-19 data hub tracks policy measures across 19 indicators. I used th
 
 For example:
 
-![]("https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting/blob/main/Images/An%20Example%20of%20the%20Oxford%20Database%20Indicators.png")
+<img src="https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting/blob/main/Images/An%20Example%20of%20the%20Oxford%20Database%20Indicators.png" width="500" height="300">
 
 The Project Workflow was as follows:
 
@@ -161,7 +161,7 @@ For this project I thoroughly explore two labeled datasets, one contains sentime
 
 Generic Tweets Word Cloud: 
 
-<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/Sentiment%20Analysis%20Word%20Cloud.png" width="500" height="300">
+[](https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/Sentiment%20Analysis%20Word%20Cloud.png" width="500" height="300")
 
 US Election Relevant tweets Word Cloud:
 
