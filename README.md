@@ -100,7 +100,7 @@ This was my first portfolio worthy project within the realm of NLP, model perfor
   - This will be the goal in my next NLP Project.
 
 Generic Tweets Word Cloud: 
-<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/Sentiment%20Analysis%20Word%20Cloud.png" width="400" height="250">
+<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/sentiment%20analysis%20word%20cloud.png" width="400" height="250">
 
 US Election Relevant tweets Word Cloud:
 <img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/US%20Election%202020%20Word%20Cloud.png" width="400" height="250">
