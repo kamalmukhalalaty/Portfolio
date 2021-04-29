@@ -45,69 +45,6 @@
 
 # [Data Science Projects:](https://github.com/kamalmukhalalaty)
 
-## [Salary Exploration & Prediction Challenge Kaggle](https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions)
-
-The challenge objective: tell a data story about a subset of the data science community represented in this survey, through a combination of both narrative text and data exploration. A “story” could be defined any number of ways, and that’s deliberate. The challenge is to deeply explore (through data) the impact, priorities, or concerns of a specific group of data science and machine learning practitioners. 
-
-I decided to bo both the data exploration and build a predictive model using logistic regression to predict the salaries of survey participants.
-
-This project involved:
-- Data cleaning, wrangling and manipulation
-  - Ordinal & Coordinal encoding 
-- Imputation of missing values 
-- Statistical Analysis 
-- Data exploration
-- Visualization
-- Feature Reduction 
-  - Tree Based Feature Importance 
-  - Lasso for feature selection
-- Hyperparameter Tuning
-- Bias-Variance Tradeoff Analyisis
-
-For more details on the challenge itself and the to source the input data please visit: [https://www.kaggle.com/c/kaggle-survey-2019](https://www.kaggle.com/c/kaggle-survey-2019)
-
-## [Sentiment Analysis on Generic Tweets & US Election Specific Posts (NLP)](https://github.com/kamalmukhalalaty/NLP_twitter_Sentiment_Analysis)
-
-For this project I thoroughly explore two labeled datasets, one contains sentiment labeled generic tweets while the other contains 2020 US Election relevant I built a NLP tweet sentiment analysis classifier.
-
-In this repository I showcase a notebook where I built a NLP tweet sentiment analysis classifier. 
-
-- The binary classifier is trained and validated on generic tweets from the file named sentiment_analysis.csv. 
-  - The extracted corpus is modeled via both Bag of words (BOW) and Term Frequency-Inverse Document Frequency (TF-IDF) embeddings.
-  - top 200 features were selected based on frequency and the following models were applied using scikit's default settings:
-    - LogisticRegression()
-    - RandomForestClassifier()
-    - DecisionTree
-    - SVM
-    - KNN
-    - XGBoost W/Logistic objective
-  - **TF-IDF Embedding W/ Logistic Regression & Random Forest showed some promise so I conducted hyperparameter tuning which yeilded that Logistic Regresion in default setting has the highest validation accuracy of aproximatley 86%.**
-  
-- The previously defined **best classifer** is then applied on the entirety of the of US_Election_2020.csv dataset containing labeled 2020 US election relevant tweets and its **performance is sub optimal at 58%**. This is primarily due to computational contraints and dimensionality reduction requierments, the top 200 features from the generic tweets were used to train the model and only a randomly sampled eigth of the total dataset index was used, these features are not as informative when it comes to dictating sentiment in the US election tweets as they are insufficiently diverse and unable to effectivly explain the feature to sentiment mappings in the election relevant tweets.
-
-- A Multi-Class Classification model is then created using the same steps as above to try and learn feature to negative sentiment reason mappings on the 2020 US election relevant tweets and its. The highest accuracy random forrest classification mod--el had an accuracy at 36% but overfit the data extremely. The logistic regression model had a similar accuracy with less overfitting characteristics but still at unreasonable levels.
-  - The model did poorly in my opinion for the following reasons:
-    - Unequal distribution of the labeled reasons with Covid significantly outnumbering the others
-      - Scoring metric could have been changed to have a weighted accuracy however the class imbalance is too low to justify this. 
-    - the sample size of the negative sentement labeled tweets with reasons is small and therefore models have a hard time generalizing on new data from the little they have learned from the small training set.
-
-- Finnaly an MLP-3 is Built using Keras and TF in an attempt to build an even more compatant classifier however the validation accuracy is only 1% higher so the idea is scrapped. 
-
-This was my first portfolio worthy project within the realm of NLP, model performance could be improved in the following ways:
-
-- getting access to massively parallel processing (MPP) to speed things up and allow me to use the whole generic tweet set and more features as opposed to randomly sampling 1/8th of the overall index and only taking the top 200 most frequent features. (Can try DataBricks Pyspark)
-- Using techniques such as word2vec or Glovo word embeddings to allow the model to better put sequence of words into context and improve prediction.
-  - This will be the goal in my next NLP Project.
-
-Generic Tweets Word Cloud: 
-
-<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/Sentiment%20Analysis%20Word%20Cloud.png" width="400" height="250">
-
-US Election Relevant tweets Word Cloud:
-
-<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/US%20Election%202020%20Word%20Cloud.png" width="400" height="250">
-
-
 ## [Time-Series Forcasting of Covid-19 Data via manually tuned ARIMA](https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting)
 
 **For This Project I Performed time-series forecasting on NY State’s Covid-19 data during the start of the second wave (December 2020).**
@@ -181,9 +118,118 @@ A reminder of the 2-week forcast's outcome:
 
 <img src="https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting/blob/main/Images/Best%202-Week%20Prediction%20(Manually%20Tuned%20SARIMA).png" width="500" height="300">
 
-## [Project 3 A data driven approach to redisigning U of T's MEng. Analytics Emphasis]()
+## [Salary Exploration & Prediction Challenge Kaggle](https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions)
 
-Web Scraped LinkedIn Data Science job descriptions pre-processed and parsed the data before running Agglomerative Clustering on the mentioned skills based on inter-job-description term frequencies and produced a dendrogram to showcase results. 
+### The challenge objective: tell a data story about a subset of the data science community represented in this survey, through a combination of both narrative text and data exploration. A “story” could be defined any number of ways, and that’s deliberate. The challenge is to deeply explore (through data) the impact, priorities, or concerns of a specific group of data science and machine learning practitioners. 
+
+I decided to bo both the data exploration and build a predictive model using logistic regression to predict the salaries of survey participants.
+
+This project involved:
+- Data cleaning, wrangling and manipulation
+  - Ordinal & Coordinal encoding 
+- Imputation of missing values 
+- Statistical Analysis 
+- Data exploration
+- Visualization
+- Feature Reduction 
+  - Tree Based Feature Importance 
+  - Lasso for feature selection
+- Hyperparameter Tuning
+- Bias-Variance Tradeoff Analyisis
+
+For more details on the challenge itself and the to source the input data please visit: [https://www.kaggle.com/c/kaggle-survey-2019](https://www.kaggle.com/c/kaggle-survey-2019)
+
+### Key Findings & Results
+
+<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/Overall%20Distribution%20of%20Salaries.png" width="500" height="300">
+
+The distribution of salaries is very skewed with a very high number of data points for the lowest salary bracket as well as a "bump" in observations at the 100-125k salary bracket. This is due to a high number of respondents from various developping countries with a lower average/median salary (eg. India, which has a large number of survey participants as well while the bump at the 100-125k salary bracket can be seen as a somehwat normal distribution of salaries for the North America/USA alone.
+
+To investgiate this further I have created the following plots:
+<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/US%20vs%20India%20Salary%20Distributions.png" width="1500" height="300">
+<img src="https://github.com/kamalmukhalalaty/Kaggle-Salary-Predictions/blob/main/US%20vs%20India%20Salaries%20W:R:T%20Education.png" width="1500" height="300">
+
+Looking at this we can validate that there is somewhat normal distribution of salaries around 125-150k for the US alone with what could be some outliers in the 0-9,999 salrary bracket; and a skewed distrubtion at 0-10000 for indian respondants alone with some outliers at the >250,000$ salary bracket.
+
+Geography has a large impact on salary, but due to the high variability in number of samples from each geographic region, this impact will be difficult for our models to learn and explain. Additionnaly, as geography is not an ordinal catigiorical feature, it will need to be one-hot-encoded, this will increase model coefficients dramatically with little to no requiered increased expressivity(prone to to overfitting).
+
+## [Sentiment Analysis on Generic Tweets & US Election Specific Posts (NLP)](https://github.com/kamalmukhalalaty/NLP_twitter_Sentiment_Analysis)
+
+For this project I thoroughly explore two labeled datasets, one contains sentiment labeled generic tweets while the other contains 2020 US Election relevant I built a NLP tweet sentiment analysis classifier. In the repository I showcase a notebook where I built a NLP tweet sentiment analysis classifier. 
+
+Generic Tweets Word Cloud: 
+
+<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/Sentiment%20Analysis%20Word%20Cloud.png" width="400" height="250">
+
+US Election Relevant tweets Word Cloud:
+
+<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/US%20Election%202020%20Word%20Cloud.png" width="400" height="250">
+
+This project involved:
+- A binary classifier is trained and validated on generic tweets from the file named sentiment_analysis.csv. 
+  - The extracted corpus is modeled via both Bag of words (BOW) and Term Frequency-Inverse Document Frequency (TF-IDF) embeddings.
+  - top 200 features were selected based on frequency and the following models were applied using scikit's default settings:
+    - LogisticRegression()
+    - RandomForestClassifier()
+    - DecisionTree
+    - SVM
+    - KNN
+    - XGBoost W/Logistic objective
+  - **TF-IDF Embedding W/ Logistic Regression & Random Forest showed some promise so I conducted hyperparameter tuning which yeilded that Logistic Regresion in default setting has the highest validation accuracy of aproximatley 86%.** 
+- The previously defined **best classifer** is then applied on the entirety of the of US_Election_2020.csv dataset containing labeled 2020 US election relevant tweets and its **performance is sub optimal at 58%**. This is primarily due to computational contraints and dimensionality reduction requierments, the top 200 features from the generic tweets were used to train the model and only a randomly sampled eigth of the total dataset index was used, these features are not as informative when it comes to dictating sentiment in the US election tweets as they are insufficiently diverse and unable to effectivly explain the feature to sentiment mappings in the election relevant tweets.
+
+- A Multi-Class Classification model is then created using the same steps as above to learn feature - negative sentiment reason mappings on the 2020 US election relevant tweets and its. The highest accuracy random forrest classification model had an accuracy at 36% but overfit the data extremely. The logistic regression model had a similar accuracy with less overfitting characteristics but still at unreasonable levels.
+  - The model did poorly in my opinion for the following reasons:
+    - Unequal distribution of the labeled reasons with Covid significantly outnumbering the others
+      - Scoring metric could have been changed to have a weighted accuracy however the class imbalance is too low to justify this. 
+    - the sample size of the negative sentement labeled tweets with reasons is small and therefore models have a hard time generalizing on new data from the little they have learned from the small training set.
+
+- Finnaly an MLP-3 is Built using Keras and TF in an attempt to build an even more compatant classifier however the validation accuracy is only 1% higher so the idea is scrapped. 
+
+This was my first portfolio worthy project within the realm of NLP, model performance could be improved in the following ways:
+
+- getting access to massively parallel processing (MPP) to speed things up and allow me to use the whole generic tweet set and more features as opposed to randomly sampling 1/8th of the overall index and only taking the top 200 most frequent features. (Can try DataBricks Pyspark)
+- Using techniques such as word2vec or Glovo word embeddings to allow the model to better put sequence of words into context and improve prediction.
+  - This will be the goal in my next NLP Project.
+
+## [A data driven approach to Disigning a Data Science Masters Curriculum](https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/README.md)
+
+This was a group project that involved many parts, I have attached the presentation in the repositiry linked to the title.
+
+My personal contribution to the overall project:
+
+- Web scraped linkedin Data Science Job Postings 
+- Exploritory Data Analysis was performed on 
+  - Data Camp scraped & Coursera scraped data (Scraping done by my colleagues)
+    - Extracting popular topics
+    
+    <img src="https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/Images/datacamp_skills.png">
+    <img src="https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/Images/coursera_skills.png">
+    
+  - Scraped job descriptions
+    - Extracting important skills mentioned in job postings
+    
+    <img src="https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/Images/skills_from_jobs.png">
+    
+  - Looking at importance via most Frequent Words (Key words) and Bigrams
+
+- Hierarchical clustering of keywords in job posting data to validate important topics:
+
+The following dendrogram was created to to clusters skills based on inter-job description term frequencies or more concretely, which words or groups of words appear most frequently in each job description. The words we chose to analyze are The top 10 most popular general  skills found in job descriptions, And the most popular programming languages and software packages found from analysis of popular coursera courses and job descriptions.
+
+Based on this, the clusters shown on the dendrogram were derived. 
+
+<img src="https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/Images/dendrogram_1.png">
+
+Due to the large amount of terms analysed the dendrogram could be better interpreted by
+Zeroing in on the most popular languages and software platforms, 
+
+
+<img src="https://github.com/kamalmukhalalaty/Data-Driven-Design-of-a-Data-Science-Masters-Curriculum/blob/main/Images/dendrogram_2.png">
+
+Here we see 6 clear clusters and it is nice to see that the clusters make sense. We also see languages like r and c tying into larger clusters that contain more specific skills. 
+
+All in all this reduced dendrogram was very informative and will be used in designing a relevant curriculum for the masters program.
 
 ## [Project 4: Big Data Hadoop MapReduce Program via Hadoop Streaming]()
 
@@ -198,7 +244,7 @@ Built a Hadoop MapReduce k-means clustering program from scratch using Hadoop’
 
 ## [Project 6: Neural Network design from the control flow graph to backpropagation to coding the algorithms from scratch for MLP, RNN, GANs and ResNet in Python using only Numpy.]()
 
-# Mechatronics Projects:
+# [Mechatronics Projects:](https://portfolium.com/kamalmukhalala/portfolio)
 
 ## Robotics, Control Theory & More:
 
@@ -215,7 +261,7 @@ sensor data using C++ (Arduino IDE) to achieve localization in under 30 seconds.
 
 ### [Experimental Helicopter PID Control System Design](https://portfolium.com/entry/httpsyoutube3tm-tcbhyu8)
 
-<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/PID%20Control%202.png" width="200" height="500">
+<img src="https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/PID%20Control%202.png" width="300" height="500">
 
 - Created a dynamic rig to test the one-dimensional motion of a replicated helicopter rotor system.
 - Wrote the PID controller code and iteratively tuned control gains using the Ziegler-Nichols method to meet system response requirements, achieving <2% overshoot.
