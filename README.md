@@ -161,7 +161,9 @@ For this project I thoroughly explore two labeled datasets, one contains sentime
 
 Generic Tweets Word Cloud: 
 
-[](https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/Sentiment%20Analysis%20Word%20Cloud.png" width="500" height="300")
+![](https://github.com/kamalmukhalalaty/Portfolio/blob/main/images/Sentiment%20Analysis%20Word%20Cloud.png" width="500" height="300")
+
+
 
 US Election Relevant tweets Word Cloud:
 
