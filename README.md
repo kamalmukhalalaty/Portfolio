@@ -266,7 +266,8 @@ During my mechanical Engineering undergrad at UofT, I worked on some interesting
 sensor data using C++ (Arduino IDE) to achieve localization in under 30 seconds.
 
 ### [Experimental Helicopter PID Control System Design](https://portfolium.com/entry/httpsyoutube3tm-tcbhyu8)
-<img width="229" alt="PID Control 2" src="https://user-images.githubusercontent.com/72153772/116603073-7f8a6a00-a8fa-11eb-8dc2-426bff493cfa.png">
+
+<img width="228" alt="PID Control" src="https://user-images.githubusercontent.com/72153772/116603372-da23c600-a8fa-11eb-9088-bc9e6246eaf5.png">
 
 - Created a dynamic rig to test the one-dimensional motion of a replicated helicopter rotor system.
 - Wrote the PID controller code and iteratively tuned control gains using the Ziegler-Nichols method to meet system response requirements, achieving <2% overshoot.
