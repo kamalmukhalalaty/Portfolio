@@ -16,7 +16,7 @@
       - Pandas
       - Numpy
       - NLP (RegEx & NLTK)
-      - Time Series Forcasting & Analysis  
+      - Time Series Forecasting & Analysis  
     - Deep Learning, Nural Networks (CNN, RNN, LSTM, ResNet, GAN):
       - Keras
       - TensorFlow
@@ -45,7 +45,7 @@
 
 # [Data Science Projects:](https://github.com/kamalmukhalalaty)
 
-## [Time-Series Forecasting of Covid-19 Data via ARIMA Family of Models](https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forcasting)
+## [Time-Series Forecasting of Covid-19 Data via ARIMA Family of Models](https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forecasting)
 
 **For This Project I Performed time-series forecasting on NY State’s Covid-19 data during the start of the second wave (December 2020).**
 
@@ -116,9 +116,9 @@ Results were not good enough.
 
 <img width="909" alt="1 Month out prediction using Best Model" src="https://user-images.githubusercontent.com/72153772/116601894-ff173980-a8f8-11eb-9191-1a9e16d2dba7.png">
 
-Forecasting for one month out is as expected a very difficult task as 1 month is a long time however it is reassuring that the forcast's lower bound is very close to actual cases.
+Forecasting for one month out is as expected a very difficult task as 1 month is a long time however it is reassuring that the forecast's lower bound is very close to actual cases.
 
-A reminder of the 2-week forcast's outcome:
+A reminder of the 2-week forecast's outcome:
 
 <img width="923" alt="Best 2-Week Prediction (Manually Tuned SARIMA)" src="https://user-images.githubusercontent.com/72153772/116601547-a21b8380-a8f8-11eb-94db-1f3eaa2d5a6a.png">
 
@@ -172,7 +172,7 @@ US Election Relevant tweets Word Cloud:
 This project involved:
 - A binary classifier is trained and validated on generic tweets from the file named sentiment_analysis.csv. 
   - The extracted corpus is modelled via both Bag of words (BOW) and Term Frequency-Inverse Document Frequency (TF-IDF) embeddings.
-  - top 200 features were selected based on frequency and the following models were applied using Scikit's default settings:
+  - top 200 features were selected based on the frequency and the following models were applied using Scikit's default settings:
     - LogisticRegression
     - RandomForestClassifier
     - decision tree
@@ -180,7 +180,7 @@ This project involved:
     - KNN
     - XGBoost W/Logistic objective
   - **TF-IDF Embedding W/ Logistic Regression & Random Forest showed some promise so I conducted hyperparameter tuning which yielded that Logistic Regression in default setting has the highest validation accuracy of approximately 86%.** 
-- The previously defined **best classifer** is then applied on the entirety of the of US_Election_2020.csv dataset containing labeled 2020 US election relevant tweets and its **performance is sub optimal at 58%**. This is primarily due to computational constraints and dimensionality reduction requirements, the top 200 features from the generic tweets were used to train the model and only a randomly sampled eight of the total dataset index was used, these features are not as informative when it comes to dictating sentiment in the US election tweets as they are insufficiently diverse and unable to effectively explain the feature to sentiment mappings in the election relevant tweets.
+- The previously defined **best classifier** is then applied on the entirety of the of US_Election_2020.csv dataset containing labeled 2020 US election relevant tweets and its **performance is sub-optimal at 58%**. This is primarily due to computational constraints and dimensionality reduction requirements, the top 200 features from the generic tweets were used to train the model and only a randomly sampled eight of the total dataset index was used, these features are not as informative when it comes to dictating sentiment in the US election tweets as they are insufficiently diverse and unable to effectively explain the feature to sentiment mappings in the election relevant tweets.
 
 - A Multi-Class Classification model is then created using the same steps as above to learn feature - negative sentiment reason mappings on the 2020 US election relevant tweets and its. The highest accuracy random forest classification model had an accuracy at 36% but overfit the data extremely. The logistic regression model had a similar accuracy with less overfitting characteristics but still at unreasonable levels.
   - The model did poorly in my opinion for the following reasons:
