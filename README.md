@@ -237,18 +237,20 @@ Here we see 6 clear clusters and it is nice to see that the clusters make sense.
 
 All in all this reduced dendrogram was very informative and will be used in designing a relevant curriculum for the masters program.
 
-## [Project 4: Big Data Hadoop MapReduce Program via Hadoop Streaming]()
+## [Big Data Hadoop MapReduce Program via Hadoop Streaming](https://github.com/kamalmukhalalaty/Big-Data-Hadoop-MapReduce-Program-via-Hadoop-Streaming)
 
 Built a Hadoop MapReduce k-means clustering program from scratch using Hadoop’s Streaming API.  Orchestrated training iterations via a Bash script to pass data between my Python written mapper and reducer via STDIN and STDOUT.
 
-## [Project 5&6: Machine Learning on Big Data via Spark, PySpark, MLlib]()
+## [Machine Learning on Big Data via Spark, PySpark, MLlib](https://github.com/kamalmukhalalaty/Machine-Learning-on-Big-Data-via-Spark-PySpark-MLlib)
 
-- Created a big data movie recommender system using Alternating Least Square (ALS) on Databricks in PySpark leveraging MLlib.]
+- Created a big data movie recommender system using Alternating Least Square (ALS) on Databricks in PySpark leveraging MLlib.
+- Created a big data fraud detection system system on Databricks in PySpark leveraging MLlib.
 
-- Created a big data raud detection system system on Databricks in PySpark leveraging MLlib.
+## [Deep Learning Projects](https://github.com/kamalmukhalalaty/Deep-Learning-Projects)
 
+Neural Network design from the control flow graph to backpropagation to coding the algorithms from scratch for MLP, RNN, GANs and ResNet in Python using only Numpy
 
-## [Project 6: Neural Network design from the control flow graph to backpropagation to coding the algorithms from scratch for MLP, RNN, GANs and ResNet in Python using only Numpy.]()
+The Linked repository is in the process of being updated
 
 # [Mechatronics Projects:](https://portfolium.com/kamalmukhalala/portfolio)
 
