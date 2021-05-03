@@ -1,3 +1,6 @@
+<img width="644" alt="Screen Shot 2021-05-03 at 12 58 27 PM" src="https://user-images.githubusercontent.com/72153772/116907247-570eb280-ac0f-11eb-9023-0f288438fa0c.png">
+
+
 # [About Me](https://www.linkedin.com/in/kamalmukhalalaty/)
 
 - 👋 Hi, I’m Kamal
