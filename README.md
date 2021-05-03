@@ -1,4 +1,4 @@
-<img width="644" alt="Screen Shot 2021-05-03 at 12 58 27 PM" src="https://user-images.githubusercontent.com/72153772/116907247-570eb280-ac0f-11eb-9023-0f288438fa0c.png">
+<img width="478" alt="Screen Shot 2021-05-03 at 1 30 55 PM" src="https://user-images.githubusercontent.com/72153772/116910593-d7cfad80-ac13-11eb-9d0b-a0e57f25c7dc.png">
 
 
 # [About Me](https://www.linkedin.com/in/kamalmukhalalaty/)
