@@ -8,7 +8,7 @@
 
 - 👀 I’m interested in Data Science, Engineering & Analytics
 
-- 🌱 I’m currently completing my Master of Engineering at the University of Toronto specalizing in data science
+- 🌱 I’m currently completing my Master of Engineering at the University of Toronto specializing in data science
   - Here is a short list of what I have learned thus far:
     - Programming Languages:
       - Python
@@ -21,14 +21,14 @@
       - Numpy
       - NLP (RegEx & NLTK)
       - Time Series Forecasting & Analysis  
-    - Deep Learning, Nural Networks (CNN, RNN, LSTM, ResNet, GAN):
+    - Deep Learning, Neural Networks (CNN, RNN, LSTM, ResNet, GAN):
       - Keras
       - TensorFlow
     - Big Data & Data Engineering:
       - Hadoop MapReduce
       - Hadoop via Python Streaming
       - Apache Spark
-        - DataBricks
+        - Data Bricks
         - Pyspark
         - RDD & Dataframe manipulation
         - MLlib
@@ -60,13 +60,13 @@ I experiment with:
 - SARIMAX models (Seasonal ARIMA with supporting exogenous data)
   - The SARIMAX model training process includes hypothesis testing of the exogenous data’s fitment to the covid case data
 
-The End Goal is to develop a model for a 1 month out of sample prediction (1-month forecast) of covid-19 cases for the state with an uper and lower bound defining best and worst case.
+The End Goal is to develop a model for a 1 month out of sample prediction (1-month forecast) of covid-19 cases for the state with an upper and lower bound defining best and worst case.
 
 **Supporting data used as exogenous for SARIMAX Model:**
 
-Oxfords covid-19 data hub tracks policy measures across 19 indicators. I used the database to pull a variety of Policy related features and examine some of the response indicies created by Oxford (indices are simple averages of the individual component indicators).
+Oxfords covid-19 data hub tracks policy measures across 19 indicators. I used the database to pull a variety of Policy related features and examine some of the response indices created by Oxford (indices are simple averages of the individual component indicators).
 - General info: [https://github.com/OxCGRT/covid-policy-tracker#subnational-data](https://github.com/OxCGRT/covid-policy-tracker#subnational-data)
-- Indicies: [https://github.com/OxCGRT/covid-policy-tracker/blob/master/documentation/index_methodology.md](https://github.com/OxCGRT/covid-policy-tracker/blob/master/documentation/index_methodology.md)
+- Indices: [https://github.com/OxCGRT/covid-policy-tracker/blob/master/documentation/index_methodology.md](https://github.com/OxCGRT/covid-policy-tracker/blob/master/documentation/index_methodology.md)
 
 For example:
 
@@ -114,9 +114,9 @@ Results were not good enough.
 
   <img width="910" alt="SARIMAX Top 5" src="https://user-images.githubusercontent.com/72153772/116601739-d000c800-a8f8-11eb-8798-25651c53afed.png">
 
- - Despite all this work on trying to build a SARIMAX model and finding the perfect exogenous data set to support its predictions, the manually tuned SARIMA Model previously built (2) outperforms all SARIMAX models. for that reason, I will use that model to do my one month out prediction.
+ - Despite all this work on trying to build a SARIMAX model and finding the perfect exogenous data set to support its predictions, the manually tuned SARIMA Model previously built (2) outperforms all SARIMAX models. For that reason, I will use that model to do my one month out prediction.
 
-4. Apply wining SARIMA model for 1-month prediction.
+4. Apply winning SARIMA model for 1-month prediction.
 
 <img width="909" alt="1 Month out prediction using Best Model" src="https://user-images.githubusercontent.com/72153772/116601894-ff173980-a8f8-11eb-9191-1a9e16d2dba7.png">
 
@@ -153,12 +153,10 @@ For more details on the challenge itself and the to source the input data please
 
 The distribution of salaries is very skewed with a very high number of data points for the lowest salary bracket as well as a "bump" in observations at the 100-125k salary bracket. This is due to a high number of respondents from various developing countries with a lower average/median salary (eg. India, which has a large number of survey participants as well while the bump at the 100-125k salary bracket can be seen as a somewhat normal distribution of salaries for the North America/USA alone.
 
-To investgiate this further I have created the following plots:
+To investigate this further I have created the following plots:
 <img width="950" alt="US vs India Salary Distributions" src="https://user-images.githubusercontent.com/72153772/116602062-35ed4f80-a8f9-11eb-97d4-c023133e71ad.png">
 <img width="1150" alt="US vs India Salaries W:R:T Education" src="https://user-images.githubusercontent.com/72153772/116602083-3e458a80-a8f9-11eb-9920-94f3f0c1a59a.png">
-
-Looking at this we can validate that there is a somewhat normal distribution of salaries around 125-150k for the US alone with what could be some outliers in the 0-9,999 salrary bracket; and a skewed distribution at 0-10000 for Indian respondents alone with some outliers at the >250,000$ salary bracket.
-
+Looking at this we can validate that there is a somewhat normal distribution of salaries around 125-150k for the US alone with what could be some outliers in the 0-9,999 salary bracket; and a skewed distribution at 0-10000 for Indian respondents alone with some outliers at the >250,000$ salary bracket.
 Geography has a large impact on salary, but due to the high variability in the number of samples from each geographic region, this impact will be difficult for our models to learn and explain. Additionally, as geography is not an ordinal categorical feature, it will need to be one-hot-encoded, this will increase model coefficients dramatically with little to no required increased expressivity(prone to overfitting).
 
 ## [Sentiment Analysis on Generic Tweets & US Election Specific Posts (NLP)](https://github.com/kamalmukhalalaty/NLP_twitter_Sentiment_Analysis)
@@ -166,11 +164,8 @@ Geography has a large impact on salary, but due to the high variability in the n
 For this project I thoroughly explore two labelled datasets, one contains sentiment labelled generic tweets while the other contains 2020 US Election relevant I built an NLP tweet sentiment analysis classifier. In the repository, I showcase a notebook where I built an NLP tweet sentiment analysis classifier. 
 
 Generic Tweets Word Cloud: 
-
 <img width="450" alt="Sentiment Analysis Word Cloud" src="https://user-images.githubusercontent.com/72153772/116602117-4bfb1000-a8f9-11eb-9983-d063497e79ca.png">
-
 US Election Relevant tweets Word Cloud:
-
 <img width="452" alt="US Election 2020 Word Cloud" src="https://user-images.githubusercontent.com/72153772/116602143-53221e00-a8f9-11eb-8107-58f08f961505.png">
 
 This project involved:
@@ -184,7 +179,7 @@ This project involved:
     - KNN
     - XGBoost W/Logistic objective
   - **TF-IDF Embedding W/ Logistic Regression & Random Forest showed some promise so I conducted hyperparameter tuning which yielded that Logistic Regression in default setting has the highest validation accuracy of approximately 86%.** 
-- The previously defined **best classifier** is then applied on the entirety of the of US_Election_2020.csv dataset containing labeled 2020 US election relevant tweets and its **performance is sub-optimal at 58%**. This is primarily due to computational constraints and dimensionality reduction requirements, the top 200 features from the generic tweets were used to train the model and only a randomly sampled eight of the total dataset index was used, these features are not as informative when it comes to dictating sentiment in the US election tweets as they are insufficiently diverse and unable to effectively explain the feature to sentiment mappings in the election relevant tweets.
+- The previously defined **best classifier** is then applied on the entirety of the of US_Election_2020.csv dataset containing labeled 2020 US election relevant tweets and its **performance is suboptimal at 58%**. This is primarily due to computational constraints and dimensionality reduction requirements, the top 200 features from the generic tweets were used to train the model and only a randomly sampled eight of the total dataset index was used, these features are not as informative when it comes to dictating sentiment in the US election tweets as they are insufficiently diverse and unable to effectively explain the feature to sentiment mappings in the election relevant tweets.
 
 - A Multi-Class Classification model is then created using the same steps as above to learn feature - negative sentiment reason mappings on the 2020 US election relevant tweets and its. The highest accuracy random forest classification model had an accuracy at 36% but overfit the data extremely. The logistic regression model had a similar accuracy with less overfitting characteristics but still at unreasonable levels.
   - The model did poorly in my opinion for the following reasons:
@@ -223,7 +218,7 @@ My personal contribution to the overall project:
 
 - Hierarchical clustering of keywords in the job posting data to validate important topics:
 
-The following dendrogram was created to clusters skills based on inter-job description term frequencies or more concretely, which words or groups of words appear most frequently in each job description. The words we chose to analyze are The top 10 most popular general skills found in job descriptions, And the most popular programming languages and software packages found from analysis of popular Coursera courses and job descriptions.
+The following dendrogram was created to cluster skills based on inter-job description term frequencies or more concretely, which words or groups of words appear most frequently in each job description. The words we chose to analyze are The top 10 most popular general skills found in job descriptions, And the most popular programming languages and software packages found from analysis of popular Coursera courses and job descriptions.
 
 Based on this, the clusters shown on the dendrogram were derived. 
 
@@ -285,3 +280,4 @@ sensor data using C++ (Arduino IDE) to achieve localization in under 30 seconds.
 kamalmukhalalaty/kamalmukhalalaty is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
