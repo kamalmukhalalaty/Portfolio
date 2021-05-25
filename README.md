@@ -32,7 +32,7 @@
         - Pyspark
         - RDD & Dataframe manipulation
         - MLlib
-    -  Cloud Computing:
+    - Cloud Computing:
       - Azure
         - Azure ML
         - Azure SQL
