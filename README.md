@@ -248,6 +248,11 @@ Neural Network design from the control flow graph to backpropagation to coding t
 
 The Linked repository is in the process of being updated
 
+
+# [Data Analytics Projects:](https://github.com/kamalmukhalalaty/Data-Analytics)
+
+## [Shopify Data Science Internship Challenge](https://github.com/kamalmukhalalaty/Data-Analytics/blob/main/Shopify_Data_Science_Internship_Challenge_Kamal_Mukhalalaty.ipynb)
+
 # [Mechatronics Projects:](https://portfolium.com/kamalmukhalala/portfolio)
 
 ## Robotics, Control Theory & More:
