@@ -12,6 +12,7 @@
   - Here is a short list of what I have learned thus far:
     - Programming Languages:
       - Python
+      - SQL
       - C
       - C#
       - VBA
