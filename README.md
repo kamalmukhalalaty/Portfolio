@@ -50,6 +50,8 @@
 
 # [Data Science Projects:](https://github.com/kamalmukhalalaty)
 
+<img width="1" alt="Screen Shot 2021-05-03 at 1 30 55 PM" src="https://user-images.githubusercontent.com/72153772/116910692-f46be580-ac13-11eb-95c6-a7c241af6acd.png">
+
 ## [Time-Series Forecasting of Covid-19 Data via ARIMA Family of Models](https://github.com/kamalmukhalalaty/Covid-19-Cases-Time-Series-Forecasting)
 
 **For This Project I Performed time-series forecasting on NY State’s Covid-19 data during the start of the second wave (December 2020).**
