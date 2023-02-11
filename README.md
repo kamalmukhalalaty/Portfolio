@@ -1,48 +1,45 @@
 <img width="469" alt="Screen Shot 2021-05-03 at 1 30 55 PM" src="https://user-images.githubusercontent.com/72153772/116910692-f46be580-ac13-11eb-95c6-a7c241af6acd.png">
 
 
-
 # [About Me](https://www.linkedin.com/in/kamalmukhalalaty/)
 
 - 👋 Hi, I’m Kamal
 
 - 👀 I’m interested in Data Science, Engineering & Analytics
 
-- 🌱 I’m currently completing my Master of Engineering at the University of Toronto specializing in data science
-  - Here is a short list of what I have learned thus far:
-    - Programming Languages:
-      - Python
-      - SQL
-      - C
-      - C#
-      - VBA
-    - Machine Learning & Data Analytics tools and techniques:
-      - Scikit-learn
-      - Pandas
-      - Numpy
-      - NLP (RegEx & NLTK)
-      - Time Series Forecasting & Analysis  
-    - Deep Learning, Neural Networks (CNN, RNN, LSTM, ResNet, GAN):
-      - Keras
-      - TensorFlow
-    - Big Data & Data Engineering:
-      - Hadoop MapReduce
-      - Hadoop via Python Streaming
-      - Apache Spark
-        - Data Bricks
-        - Pyspark
-        - RDD & Dataframe manipulation
-        - MLlib
-    - Cloud Computing:
-      - Azure
-        - Azure ML
-        - Azure SQL
-      - Data Engineering
-        - Batch: Azure Data Factory, Azure Synapse Analytics
-        - Stream: Azure IoT Hubs, Event Hubs, Stream Analytics
-
-- 🦾 Mechanical Engineering Background (BASc. Completed @ UofT 2019)
+- 🌱 I'm currently employed as a Data & Analytics Consultant predominantly facilitating cloud migrations as lead Data Engineer. 
+- 💻 I have a Master of Engineering from the University of Toronto (MEng. Completed @ UofT 2021)
+  - Specialized in Data Science
+- 🦾 I come from a Mechanical Engineering Background (BASc. Completed @ UofT 2019)
   - Specialized in Mechatronics & Renewable Energy
+  
+- Here is a short list of my skills:
+  - Programming Languages:
+    - Python
+    - PySpark
+    - SQL
+    - VBA
+    - C#
+  - Machine Learning & Data Analytics tools and techniques:
+    - Scikit-learn
+    - Spark ML
+    - Pandas
+    - Numpy
+    - NLP (RegEx & NLTK)
+    - Time Series Forecasting & Analysis  
+  - Deep Learning, Neural Networks (CNN, RNN, LSTM, ResNet, GAN):
+    - Keras
+    - TensorFlow
+  - Big Data & Data Engineering:
+    - Apache Spark
+      - DataBricks
+      - Pyspark
+      - RDD & Dataframe manipulation
+    - Hadoop MapReduce
+    - Hadoop via Python Streaming
+  - Cloud Computing:
+    - Azure ML, SQL, Databricks, Functions, Data Factory, Synapse Analytics, IoT Hubs, Event Hubs, Stream Analytics
+    - AWS Lambda, Glue
 
 - 📫 How to reach me:
   - Email: [kamalmukhalalaty@gmail.com](kamalmukhalalaty@gmail.com)
