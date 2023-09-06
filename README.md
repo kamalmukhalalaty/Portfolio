@@ -45,6 +45,26 @@
   - Email: [kamalmukhalalaty@gmail.com](kamalmukhalalaty@gmail.com)
   - Linkedin: [https://www.linkedin.com/in/kamalmukhalalaty/](https://www.linkedin.com/in/kamalmukhalalaty/)
 
+# Summary of my Professional Experience:
+
+-	Built a Python Azure Function to incrementally extract, transform and load, twitter and news API data on a list of VIPs before conducting sentiment analysis and keyword extraction on each article, enabling a ~90% increase in the speed of the event-based prospecting of VIPs.
+-	Built a framework for the onboarding of net-new structured data configurations into the cloud by parsing data intake forms to extract and create configurations from the metadata (leveraging Databricks, Python, SQL server & Data Factory). The framework accelerated the enterprise-wide ingestion of net-new data sources after migration, facilitating a successful transition to the cloud. 
+-	Consulted as a Lead Developer on the largest cloud migration in North America building out new capabilities and delivering enhancements across ingestion frameworks. This involved development across the client’s tech stack and software development lifecycle (Databricks, Python OOP, SQL).
+-	Designed and developed metadata-driven ETL frameworks for both structured & unstructured data using Azure Databricks. Successfully migrating petabytes of historic data, establishing medallion architecture lakehouses, enabling ongoing ingestions, and facilitating various BI & Reporting use cases.
+-	Spearheaded the development of two GenAI POCs. A Trading and Equity Research Agent. Wrote the backend code to aggregate data from various online news and financial data APIs, incorporated brief stock price prediction using an ARIMA model, and engineered multi-shot prompts for GPT Turbo 3.5 via the OpenAI API to synthesize vast amounts of data and produce meaningful insights. These POCs served as cornerstones of our team's GenAI go-to-market strategy, captivating numerous potential clients and winning business by showcasing the potential of GenAI-driven analytics. 
+-	Spearheaded the backend development of a web app designed to score specialized documents. For each uploaded PDF, executed data parsing and indexing, then fed the content into tailored multi-shot prompts with client-specific rubrics and examples, achieving automated scoring and rationales. Designed a custom prompt validation framework, refining prompts and model parameters against validation sets to ensure the highest level of scoring accuracy. This tool substantially optimized the client's operations, enabling in-sourcing of a previously outsourced task and bolstering autonomous, precise document scoring.
+
+# Summary of my coursework:
+
+-	Developed proficiency in various supervised and unsupervised learning techniques, feature engineering, hyperparameter tuning and model evaluation through course projects. Successfully applied these techniques to NLP sentiment analysis, time-series forecasting with ARIMA, and deep learning with MLP, RNN, GANs, and ResNet architectures.
+- Acquired expertise in big data technologies and frameworks, particularly Databricks and Apache Spark, and built big data systems such as movie recommenders using the Alternating Least Squares (ALS) algorithm and fraud detection classifiers utilizing Spark ML.
+-	[Capstone] Led a team of four in the data-driven design of a Data Science curriculum by web scraping job descriptions and leveraging a combination of NLP, agglomerative clustering, and visualization techniques to create a comprehensive and job-relevant curriculum.
+
+Bachelor of Engineering, Mechanical Engineering, Business Minor & Co-op Internship
+U
+![image](https://github.com/kamalmukhalalaty/Portfolio/assets/72153772/dcb6faad-8188-489d-9d5e-2c47d1b745ef)
+
+
 # [Data Science Projects:](https://github.com/kamalmukhalalaty)
 
 <img width="1" alt="Screen Shot 2021-05-03 at 1 30 55 PM" src="https://user-images.githubusercontent.com/72153772/116910692-f46be580-ac13-11eb-95c6-a7c241af6acd.png">
