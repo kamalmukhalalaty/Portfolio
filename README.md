@@ -60,11 +60,6 @@
 - Acquired expertise in big data technologies and frameworks, particularly Databricks and Apache Spark, and built big data systems such as movie recommenders using the Alternating Least Squares (ALS) algorithm and fraud detection classifiers utilizing Spark ML.
 -	[Capstone] Led a team of four in the data-driven design of a Data Science curriculum by web scraping job descriptions and leveraging a combination of NLP, agglomerative clustering, and visualization techniques to create a comprehensive and job-relevant curriculum.
 
-Bachelor of Engineering, Mechanical Engineering, Business Minor & Co-op Internship
-U
-![image](https://github.com/kamalmukhalalaty/Portfolio/assets/72153772/dcb6faad-8188-489d-9d5e-2c47d1b745ef)
-
-
 # [Data Science Projects:](https://github.com/kamalmukhalalaty)
 
 <img width="1" alt="Screen Shot 2021-05-03 at 1 30 55 PM" src="https://user-images.githubusercontent.com/72153772/116910692-f46be580-ac13-11eb-95c6-a7c241af6acd.png">
